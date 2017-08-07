@@ -1,0 +1,329 @@
+body {
+  background: #fff none repeat scroll 0 0;
+  color: #1d2129;
+  line-height: 1.34;
+  margin: 0;
+  padding: 0; }
+
+#wrapper {
+  margin: 0;
+  padding: 0; }
+  #wrapper .header {
+    background-color: #3b5998;
+    background-image: linear-gradient(#4e69a2, #3b5998 50%);
+    border-bottom: 1px solid #133783;
+    height: 82px; }
+    #wrapper .header .innerHeader {
+      margin: 0 auto;
+      padding-top: 13px;
+      max-width: 980px; }
+      #wrapper .header .innerHeader .leftHeader {
+        float: left; }
+        #wrapper .header .innerHeader .leftHeader h1 {
+          font-size: 14px; }
+          #wrapper .header .innerHeader .leftHeader h1 a {
+            color: #365899;
+            cursor: pointer;
+            text-decoration: none; }
+            #wrapper .header .innerHeader .leftHeader h1 a span {
+              background-position: 0 0;
+              height: 34px;
+              width: 170px;
+              margin-top: 8px;
+              background-image: url("https://www.facebook.com/rsrc.php/v3/yZ/r/Mnj6BITtXuM.png");
+              background-repeat: no-repeat;
+              background-size: auto auto;
+              display: inline-block;
+              text-indent: -99999px; }
+      #wrapper .header .innerHeader .rightHeader {
+        float: right;
+        margin-right: 9px; }
+        #wrapper .header .innerHeader .rightHeader form {
+          margin: 0;
+          padding: 0; }
+          #wrapper .header .innerHeader .rightHeader form .fieldTop {
+            float: left;
+            padding-bottom: 4px;
+            padding-right: 12px; }
+            #wrapper .header .innerHeader .rightHeader form .fieldTop label {
+              text-align: left;
+              color: #fff;
+              font-weight: normal;
+              padding-left: 1px;
+              font-size: 14px;
+              cursor: pointer; }
+            #wrapper .header .innerHeader .rightHeader form .fieldTop input {
+              margin: 0;
+              width: 142px;
+              padding-bottom: 4px;
+              font-size: 12px;
+              height: 16px; }
+          #wrapper .header .innerHeader .rightHeader form .fieldSumbitTop {
+            background-color: #4267b2;
+            border-color: #29487d;
+            border-radius: 2px;
+            cursor: pointer;
+            display: inline-block;
+            font-size: 12px;
+            font-weight: bold;
+            line-height: 18px;
+            padding: 2px 6px;
+            text-align: center;
+            text-decoration: none;
+            text-shadow: none;
+            white-space: nowrap;
+            margin-top: 23px; }
+            #wrapper .header .innerHeader .rightHeader form .fieldSumbitTop input#login {
+              background: transparent none repeat scroll 0 0;
+              border: 0 none;
+              color: #fff;
+              cursor: pointer;
+              display: inline-block;
+              font-family: Helvetica,Arial,sans-serif;
+              font-size: 12px;
+              font-weight: bold;
+              line-height: 18px;
+              margin: 0;
+              padding: 0;
+              white-space: nowrap; }
+  #wrapper .mainContent {
+    position: relative;
+    margin: 0 auto;
+    outline: medium none;
+    padding: 0;
+    width: auto;
+    background-color: #e9ebee; }
+    #wrapper .mainContent .innerMainContent {
+      padding-bottom: 20px;
+      padding-top: 20px;
+      background: transparent linear-gradient(white, #d3d8e8) repeat scroll 0 0; }
+      #wrapper .mainContent .innerMainContent .innerContentWidth {
+        margin: auto;
+        max-width: 980px;
+        overflow: hidden; }
+        #wrapper .mainContent .innerMainContent .innerContentWidth .leftContent {
+          float: left;
+          padding-right: 48px;
+          max-width: 400px; }
+          #wrapper .mainContent .innerMainContent .innerContentWidth .leftContent p#facebook {
+            color: #0e385f;
+            font-size: 20px;
+            font-weight: bold;
+            line-height: 29px;
+            margin-top: 40px;
+            width: 450px;
+            word-spacing: -1px; }
+        #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent {
+          float: right;
+          max-width: 400px; }
+          #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent h1 {
+            font-size: 36px;
+            font-weight: bold;
+            letter-spacing: normal;
+            text-rendering: optimizelegibility;
+            color: #333; }
+          #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent h3 {
+            font-weight: normal;
+            letter-spacing: normal;
+            text-rendering: optimizelegibility;
+            margin-bottom: 20px;
+            color: #333;
+            font-size: 19px;
+            line-height: 126%;
+            margin-top: -20px; }
+          #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .formGroup #email {
+            font-size: 18px;
+            padding: 8px 10px;
+            border-radius: 5px;
+            border: 1px solid #bdc7d8;
+            margin: 0;
+            width: 377px;
+            position: relative;
+            background: white none repeat scroll 0 0;
+            margin-bottom: 10px; }
+          #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .formGroup #password {
+            font-size: 18px;
+            padding: 8px 10px;
+            border-radius: 5px;
+            border: 1px solid #bdc7d8;
+            margin: 0;
+            width: 377px;
+            position: relative;
+            background: white none repeat scroll 0 0;
+            margin-bottom: 10px; }
+          #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .formGroup #birthday {
+            color: #1d2129;
+            font-size: 18px;
+            font-weight: normal;
+            margin-top: 10px;
+            margin-bottom: 5px; }
+          #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .formGroup .column-md-8 {
+            float: left;
+            width: 220px; }
+            #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .formGroup .column-md-8 select {
+              font-size: 13px;
+              height: 30px;
+              padding: 5px;
+              border: 1px solid #bdc7d8;
+              margin-left: -3px; }
+          #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .formGroup .column-md-4 {
+            float: right;
+            width: 177px; }
+            #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .formGroup .column-md-4 p {
+              margin-top: 0px; }
+              #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .formGroup .column-md-4 p a {
+                margin-left: 0px;
+                font-size: 12px;
+                display: inline-block;
+                color: #365899;
+                cursor: pointer;
+                text-decoration: none; }
+          #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .formGroup .column-md-2 {
+            float: left;
+            border-radius: 4px;
+            border-width: 1px;
+            display: inline-block;
+            padding: 5px 0 5px 4px;
+            margin-right: 4px; }
+            #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .formGroup .column-md-2 label {
+              color: #1d2129;
+              font-size: 18px;
+              font-weight: normal;
+              line-height: 18px;
+              padding: 0 10px 0 3px; }
+          #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .firstName {
+            width: 194px;
+            background: white none repeat scroll 0 0;
+            border-radius: 5px;
+            display: inline-block;
+            margin-right: 8px;
+            margin-bottom: 10px;
+            float: left; }
+            #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .firstName #firstName {
+              font-size: 18px;
+              padding: 8px 10px;
+              width: 172px;
+              border: 1px solid #bdc7d8;
+              border-radius: 5px;
+              margin: 0; }
+          #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .lastName {
+            float: right; }
+            #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .lastName #lastName {
+              font-size: 18px;
+              padding: 8px 10px;
+              width: 172px;
+              border: 1px solid #bdc7d8;
+              border-radius: 5px;
+              margin: 0; }
+          #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .rulesForm {
+            color: #777;
+            font-size: 11px;
+            width: 316px; }
+            #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .rulesForm a {
+              color: #365899;
+              cursor: pointer;
+              text-decoration: none; }
+          #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .buttonCreate {
+            font-size: 19px;
+            margin-bottom: 10px;
+            margin-top: 10px;
+            min-width: 194px;
+            padding: 7px 20px;
+            text-align: center;
+            font-weight: bold;
+            line-height: 126%;
+            background: #69a74e none repeat scroll 0 0;
+            border: 1px solid #3b6e22;
+            box-shadow: 0 1px 1px #a4e388 inset;
+            border-radius: 5px;
+            color: #fff;
+            cursor: pointer;
+            display: inline-block;
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); }
+          #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .buttonCreate:hover {
+            background: transparent linear-gradient(#79bc64, #578843) repeat scroll 0 0; }
+          #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form #pages_msg {
+            color: #666;
+            font-size: 13px;
+            font-weight: bold;
+            margin-top: 10px;
+            padding-top: 15px; }
+            #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form #pages_msg a {
+              color: #365899;
+              cursor: pointer;
+              text-decoration: none; }
+
+#footer {
+  color: #737373;
+  margin: 0 auto;
+  width: 980px; }
+  #footer #topUlFooter {
+    padding-top: 8px;
+    list-style-type: none;
+    margin: 0;
+    margin-left: -40px; }
+    #footer #topUlFooter li:first-child {
+      padding-left: 0;
+      border-width: 0; }
+    #footer #topUlFooter li {
+      padding-left: 10px;
+      padding-right: 0;
+      border-width: 0 0 0 1px;
+      display: inline-block; }
+      #footer #topUlFooter li a:last-child {
+        margin-right: 0; }
+      #footer #topUlFooter li a {
+        color: #365899;
+        cursor: pointer;
+        text-decoration: none;
+        white-space: nowrap;
+        font-size: 12px; }
+        #footer #topUlFooter li a i {
+          background-position: 0 -155px;
+          height: 12px;
+          width: 12px;
+          bottom: 1px;
+          position: relative;
+          background-image: url("https://www.facebook.com/rsrc.php/v3/yW/r/cvha_b6qJlQ.png");
+          background-repeat: no-repeat;
+          background-size: auto auto;
+          display: inline-block; }
+  #footer #contentCurve {
+    border-bottom: 1px solid #dddfe2;
+    font-size: 1px;
+    height: 8px;
+    margin-bottom: 8px; }
+  #footer .wrapMainUl {
+    line-height: 20px;
+    margin-left: -40px; }
+    #footer .wrapMainUl ul {
+      list-style-type: none;
+      width: 40px;
+      float: left; }
+      #footer .wrapMainUl ul li {
+        float: left; }
+        #footer .wrapMainUl ul li a {
+          text-decoration: none;
+          white-space: nowrap;
+          color: #365899;
+          cursor: pointer;
+          margin-right: 0;
+          text-align: left;
+          font-size: 12px; }
+    #footer .wrapMainUl ul#advertiser {
+      width: 80px; }
+      #footer .wrapMainUl ul#advertiser li i {
+        background-image: url("https://www.facebook.com/rsrc.php/v3/yW/r/cvha_b6qJlQ.png");
+        background-repeat: no-repeat;
+        background-size: auto auto;
+        display: inline-block;
+        position: absolute;
+        top: 1px;
+        background-position: 0 -121px;
+        height: 16px;
+        width: 16px;
+        position: relative; }
+    #footer .wrapMainUl ul#facebookLite {
+      width: 65px; }
+
+/*# sourceMappingURL=style.css.map */

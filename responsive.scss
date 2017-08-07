@@ -1,0 +1,1174 @@
+@mixin ul-wrapper-query{
+	margin: 0 auto;
+	overflow: hidden;
+	width: 505px;
+}
+@mixin leftContent($width){
+	float: none;
+    margin: 0 auto;
+    text-align: center;
+    width: $width;
+}
+@mixin rightContent($width,$margin){
+	max-width: $width;
+	margin:$margin;
+	float: none;
+}
+@mixin wrapFooterMainExtend{
+	.wrapMainExtend
+	{
+		.ulWrapperQuery
+		{
+			@include ul-wrapper-query;
+		}
+		.ulWrapperQuerySecond
+		{
+			@include ul-wrapper-query;
+		}
+	}
+}
+@mixin leftHeader{
+    float: none;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    width: 200px;
+}
+@mixin rightHeader($width) 
+{
+    float: none;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    text-align: center;
+    width: $width;
+}
+@mixin ulWrapperThree($width)
+{
+	margin: 0 auto -20px;
+	overflow: hidden;
+	text-align: center;
+	width: $width;
+}
+@mixin facebookLite($margin-left,$width){
+	margin-left: $margin-left;
+    width: $width;
+}
+
+@mixin ulWrappeFour($width){
+	width: $width;
+	overflow: hidden;
+	margin:0 auto;
+	position:relative;
+	top:-15px;
+}
+@mixin ulWrapperTwoFirst{
+	margin-left: 40px;
+	margin-top: -20px;
+}
+@mixin inputHeader($max-width,$width){
+	max-width: $max-width;
+	width:$width;
+	height: 20px !important;
+}
+@mixin facebook($width){
+	width: $width;
+	margin:0 auto;
+}
+@mixin firstName($max-width){
+	float: none;
+	max-width: $max-width;
+}
+@mixin firstNameSub($max-width,$width)
+{
+	max-width: $max-width;
+	width: $width;
+}
+@mixin lastName($max-width){
+	max-width: $max-width;
+	float: none;
+	margin-bottom: 10px;
+}
+@mixin ulWrapperTwo
+{
+	overflow: hidden;
+	width: 309px;
+	margin:0 auto;
+	float: none;
+	margin-left: 33px;
+}
+@mixin ulWrapperTwoSub
+{
+	overflow: hidden;
+	width: 309px;
+	margin:0 auto;
+	
+}
+@media only screen and (min-width: 1025px) and (max-width: 1224px){
+	.rightContent h1 {
+	    // color: red !important;
+	}
+
+}
+@media only screen and (min-width: 993px) and (max-width: 1024px){
+	.rightContent h1 {
+	    // color: green !important;
+	}
+	#wrapper
+	{
+		.header{
+			.innerHeader{
+				max-width: 780px;
+			}
+		}
+		.mainContent{
+			.innerMainContent{
+				.innerContentWidth{
+					max-width: 780px !important;
+					.leftContent{
+						@include leftContent(400px);
+					}
+					.rightContent{
+						@include rightContent(400px,0 auto 0 200px);
+					}
+				}
+			}
+		}
+
+	}
+	#footer
+	{
+		max-width: 780px;
+	 	@include wrapFooterMainExtend;
+	}
+}
+@media only screen and (min-width: 970px) and (max-width: 992px){
+	.rightContent h1 {
+	    // color: orange !important;
+	}
+	#wrapper
+	{
+		.header{
+			.innerHeader{
+				max-width: 780px;
+			}
+		}
+		.mainContent{
+			.innerMainContent{
+				.innerContentWidth{
+					max-width: 780px;
+					.leftContent{
+					    @include leftContent(400px);
+					}
+					.rightContent{
+						@include rightContent(400px,0 auto 0 200px);
+					}
+				}
+			}
+		}
+
+	}
+	#footer
+	{
+		max-width: 780px;
+		@include wrapFooterMainExtend;
+	}
+}
+@media only screen and (min-width: 900px) and (max-width: 969px){
+	.rightContent h1 {
+	    // color: red !important;
+	}
+	#wrapper
+	{
+		.header{
+			.innerHeader{
+				max-width: 780px;
+			}
+		}
+		.mainContent{
+			.innerMainContent{
+				.innerContentWidth{
+					max-width: 780px;
+					.leftContent{
+						@include leftContent(400px);
+					}
+					.rightContent{
+						@include rightContent(400px,0 auto 0 200px);
+					}
+				}
+			}
+		}
+
+	}
+	#footer
+	{
+		max-width: 780px;
+		@include wrapFooterMainExtend;
+	}
+}
+@media only screen and (min-width: 850px) and (max-width: 899px){
+	.rightContent h1 {
+	    // color: green !important;
+	}
+	#wrapper
+	{
+		.header{
+			.innerHeader{
+				max-width: 700px;
+			}
+		}
+		.mainContent{
+			.innerMainContent{
+				.innerContentWidth{
+					max-width: 700px;
+					.leftContent{
+						@include leftContent(400px);
+					}
+					.rightContent{
+						@include rightContent(400px,0 auto 0 200px);
+					}
+				}
+			}
+		}
+	}
+	#footer
+	{
+		max-width: 700px;
+		@include wrapFooterMainExtend;
+	}
+}
+@media only screen and (min-width: 800px) and (max-width: 849px){
+	.rightContent h1 {
+	    // color: orange !important;
+	}
+	#wrapper
+	{
+		.header{
+			.innerHeader{
+				max-width: 650px;
+			}
+		}
+		.mainContent{
+			.innerMainContent{
+				.innerContentWidth{
+					max-width: 740px;
+					.leftContent{
+						@include leftContent(400px);
+					}
+					.rightContent{
+						@include rightContent(400px,0 auto 0 200px);
+					}
+				}
+			}
+		}
+	}
+	#footer
+	{
+		max-width: 700px;
+		@include wrapFooterMainExtend;
+	}
+}
+@media only screen and (min-width: 767px) and (max-width: 799px){
+	.rightContent h1 {
+	    // color: red !important;
+	}
+	#wrapper
+	{
+		.header{
+			.innerHeader{
+				max-width: 650px;
+			}
+		}
+		.mainContent{
+			.innerMainContent{
+				.innerContentWidth{
+					max-width: 740px;
+					.leftContent{
+						@include leftContent(400px);
+					}
+					.rightContent{
+						@include rightContent(400px,0 auto 0 200px);
+					}
+				}
+			}
+		}
+	}
+	#footer
+	{
+		max-width: 640px;
+		@include wrapFooterMainExtend;
+	}
+}
+@media only screen and (min-width: 717px) and (max-width: 766px){
+	.rightContent h1 {
+	    // color: green !important;
+	}
+	#wrapper
+	{
+		.header{
+			.innerHeader{
+				max-width: 600px;
+			}
+		}
+		.mainContent{
+			.innerMainContent{
+				.innerContentWidth{
+					max-width: 740px;
+					.leftContent{
+						@include leftContent(400px);
+					}
+					.rightContent{
+    					@include rightContent(400px,0 auto 0 180px);
+					}
+				}
+			}
+		}
+	}
+	#footer
+	{
+		max-width: 600px;
+		#topUlFooter{
+			margin-left: 0px;
+		}
+		@include wrapFooterMainExtend;
+	}
+}
+@media only screen and (min-width: 667px) and (max-width: 716px){
+	.rightContent h1 {
+	    // color: red !important;
+	}
+	#wrapper
+	{
+		.header{
+			.innerHeader{
+				max-width: 580px;
+			}
+		}
+		.mainContent{
+			.innerMainContent{
+				.innerContentWidth{
+					max-width: 740px;
+					.leftContent{
+						@include leftContent(400px);
+					}
+					.rightContent{
+						@include rightContent(400px,0 auto 0 160px);
+					}
+				}
+			}
+		}
+	}
+	#footer
+	{
+		max-width: 580px;
+		#topUlFooter{
+			margin-left: 0px;
+		}
+		@include wrapFooterMainExtend;
+	}
+}
+@media only screen and (min-width: 602px) and (max-width: 666px){
+	.rightContent h1 {
+	    // color: green !important;
+	}
+	#wrapper
+	{
+		.header{
+			height: auto;
+			.innerHeader{
+				max-width: 580px;
+				.leftHeader {
+				    @include leftHeader;
+				}
+				.rightHeader {
+				    @include rightHeader(400px);
+				}
+			}
+		}
+		.mainContent{
+			.innerMainContent{
+				.innerContentWidth{
+					max-width: 740px;
+					.leftContent{
+						@include leftContent(400px);
+					}
+					.rightContent{
+						@include rightContent(400px,0 auto 0 130px);
+					}
+				}
+			}
+		}
+	}
+	#footer
+	{
+		max-width: 500px;
+		#topUlFooter{
+			margin-left: 0px;
+		}
+		@include wrapFooterMainExtend;
+	}
+}
+@media only screen and (min-width: 561px) and (max-width: 601px){
+	.rightContent h1 {
+	    // color: orange !important;
+	}
+	#wrapper
+	{
+		.header{
+			height: auto;
+			.innerHeader{
+				max-width: 580px;
+				.leftHeader {
+				    @include leftHeader;
+				}
+				.rightHeader {
+				    @include rightHeader(400px);
+				}
+			}
+		}
+		.mainContent{
+			.innerMainContent{
+				.innerContentWidth{
+					max-width: 740px;
+					.leftContent{
+						@include leftContent(400px);
+					}
+					.rightContent{
+						@include rightContent(400px,0 auto 0 90px);
+					}
+				}
+			}
+		}
+	}
+	#footer
+	{
+		max-width: 500px;
+		#topUlFooter{
+			margin-left: 0px;
+		}
+		.wrapMainUl{
+	 		.ulWrapperQuery{
+	 			@include ulWrapperThree(325px);
+	 			#facebookLite{
+    				@include facebookLite(90px,65px);
+	 			}
+	 		}
+	 		.ulWrapperQuerySecond{
+	 			.ulWrappeFour{
+	 				@include ulWrappeFour(359px);
+	 			}
+	 		}
+	 	} 
+	}
+}
+@media only screen and (min-width: 521px) and (max-width: 560px){
+	.rightContent h1 {
+	    // color: red !important;
+	}
+	#wrapper
+	{
+		.header{
+			height: auto;
+			.innerHeader{
+				max-width: 580px;
+				.leftHeader {
+				    @include leftHeader;
+				}
+				.rightHeader {
+				    @include rightHeader(400px);
+				}
+			}
+		}
+		.mainContent{
+			.innerMainContent{
+				.innerContentWidth{
+					max-width: 740px;
+					.leftContent{
+						@include leftContent(400px);
+					}
+					.rightContent{
+						@include rightContent(400px,0 auto 0 70px);
+					}
+				}
+			}
+		}
+	}
+	#footer
+	{
+		max-width: 500px;
+		#topUlFooter{
+			margin-left: 0px;
+		}
+		.wrapMainUl{
+	 		.ulWrapperQuery{
+	 			.ulWrapperThree{
+	 				@include ulWrapperThree(325px);
+	 			}
+	 			#facebookLite{
+	 				@include facebookLite(90px,65px);
+	 			}
+	 		}
+	 		.ulWrapperQuerySecond{
+	 			.ulWrappeFour{
+	 				@include ulWrappeFour(359px);
+	 			}
+	 		}
+	 	} 
+	}
+}
+@media only screen and (min-width: 480px) and (max-width: 520px){
+	.rightContent h1 {
+	    // color: orange !important;
+	}
+	#wrapper
+	{
+		.header{
+			height: auto;
+			.innerHeader{
+				max-width: 580px;
+				.leftHeader {
+				    @include leftHeader;
+				}
+				.rightHeader {
+				    @include rightHeader(400px);
+				}
+			}
+		}
+		.mainContent{
+			.innerMainContent{
+				.innerContentWidth{
+					max-width: 740px;
+					.leftContent{
+						@include leftContent(400px);
+					}
+					.rightContent{
+						@include rightContent(400px,0 auto 0 40px);
+					}
+				}
+			}
+		}
+	}
+	#footer
+	{
+		max-width: 400px;
+		#topUlFooter{
+			margin-left: 0px;
+		}
+		.wrapMainUl{
+	 		.ulWrapperQuery{
+	 			.ulWrapperThree{
+	 				@include ulWrapperThree(325px);
+	 			}
+	 			#facebookLite{
+	 				@include facebookLite(40px,65px);
+	 			}
+	 		}
+	 		.ulWrapperQuerySecond{
+	 			.ulWrappeFour{
+	 				@include ulWrappeFour(359px);
+	 			}
+	 		}
+	 	} 
+	}
+}
+@media only screen and (min-width: 441px) and (max-width: 479px){
+	.rightContent h1 {
+	    // color: red !important;
+	}
+	#wrapper
+	{
+		.header{
+			height: auto;
+			.innerHeader{
+				max-width: 580px;
+				.leftHeader {
+				    @include leftHeader;
+				}
+				.rightHeader {
+				    @include rightHeader(400px);
+				}
+			}
+		}
+		.mainContent{
+			.innerMainContent{
+				.innerContentWidth{
+					max-width: 740px;
+					.leftContent{
+						p#facebook{
+							@include facebook(320px);
+						}
+						@include leftContent(400px);
+					}
+					.rightContent{
+						@include rightContent(400px,0 auto 0 20px);
+    					form{
+    						.firstName{
+    							@include firstName(350px);
+    							#firstName
+    							{
+    								@include firstNameSub(350px !important,350px !important);
+    							}
+    						}
+    						.lastName{
+    							@include lastName(350px);
+    							#lastName{
+    								max-width: 350px;
+    								width: 350px !important;
+    							}
+    						}
+    						.formGroup{
+    							#email{
+	    							max-width: 350px;
+	    							width: 350px !important;
+	    						}
+	    						#password{
+	    							max-width: 350px;
+	    							width: 350px !important;
+	    						}
+    						} 
+    					}
+					}
+				}
+			}
+		}
+	}
+	#footer
+	{
+		max-width: 400px;
+		#topUlFooter{
+			margin-left: 0px;
+		}
+		.wrapMainUl{
+	 		.ulWrapperQuery{
+	 			.ulWrapperThree{
+	 				@include ulWrapperThree(325px);
+	 			}
+	 			#facebookLite{
+	 				@include facebookLite(40px,65px);
+	 			}
+	 		}
+	 		.ulWrapperQuerySecond{
+	 			.ulWrappeFour{
+	 				@include ulWrappeFour(359px);
+	 			}
+	 		}
+	 	} 
+	}
+}
+@media only screen and (min-width: 401px) and (max-width: 440px){
+	.rightContent h1 {
+	    // color: green !important;
+	}
+	#wrapper
+	{
+		.header{
+			height: auto;
+			.innerHeader{
+				max-width: 400px !important;
+				.leftHeader {
+				    @include leftHeader;
+				}
+				.rightHeader {
+				    @include rightHeader(300px !important);
+				    .fieldTop{
+				    	float: none !important;
+				    	label{
+				    		margin-bottom: 10px;
+				    		font-size:18px !important;
+				    	}
+				    	input{
+				    		@include inputHeader(230px !important,230px !important);
+				    	}
+				    }
+				}
+			}
+		}
+		.mainContent{
+			.innerMainContent{
+				.innerContentWidth{
+					max-width: 740px;
+					.leftContent{
+						p#facebook{
+							@include facebook(300px);
+						}
+						@include leftContent(400px);
+					}
+					.rightContent{
+						@include rightContent(400px,0 auto 0 30px);
+    					form{
+    						.firstName{
+    							@include firstName(300px);
+    							#firstName
+    							{
+    								@include firstNameSub(300px !important,300px !important);
+    							}
+    						}
+    						.lastName{
+    							@include lastName(300px);
+    							#lastName{
+    								max-width: 300px;
+    								width: 300px !important;
+    							}
+    						}
+    						.formGroup{
+    							#email{
+	    							max-width: 300px;
+	    							width: 300px !important;
+	    						}
+	    						#password{
+	    							max-width: 300px;
+	    							width: 300px !important;
+	    						}
+	    						.column-md-4{
+	    							float: none;
+	    							width:300px;
+	    							a{
+	    								font-weight: 15px;
+	    							}
+	    						}
+    						} 
+    						#pages_msg{
+    							max-width: 200px;
+    						}
+    					}
+					}
+				}
+			}
+		}
+	}
+	#footer
+	{
+		max-width: 380px !important;
+		width: 380px;
+		#topUlFooter{
+			margin-left: 0px;
+		}
+		.wrapMainUl{
+	 		.ulWrapperQuery{
+	 			.ulWrapperThree{
+	 				@include ulWrapperThree(325px);
+	 			}
+	 			#facebookLite{
+	 				@include facebookLite(40px,65px);
+	 			}
+	 		}
+	 		.ulWrapperQuerySecond{
+	 			
+	 			.ulWrappeFour{
+	 				@include ulWrappeFour(359px);
+	 			}
+	 		}
+	 	} 
+	}
+	
+}
+@media only screen and (min-width: 360px) and (max-width: 400px){
+	.rightContent h1 {
+	    // color: red !important;
+	}
+	#wrapper
+	{
+		.header{
+			height: auto;
+			.innerHeader{
+				max-width: 350px !important;
+				.leftHeader {
+				    @include leftHeader;
+				}
+				.rightHeader {
+				    @include rightHeader(300px !important);
+				    .fieldTop{
+				    	float: none !important;
+				    	label{
+				    		margin-bottom: 10px;
+				    		font-size:18px !important;
+				    	}
+				    	input{
+				    		@include inputHeader(230px !important,230px !important);
+				    	}
+				    }
+				}
+			}
+		}
+		.mainContent{
+			.innerMainContent{
+				.innerContentWidth{
+					max-width: 440px;
+					.leftContent{
+						p#facebook{
+							@include facebook(280px);
+						}
+						@include leftContent(340px);
+					    h1{
+					    	font-size: 26px;
+					    }
+					    h3{
+					    	font-size: 16px;
+					    }
+					}
+					.rightContent{
+						@include rightContent(400px,0 auto 0 30px);
+    					h1{
+    						font-size: 26px;
+    					}
+    					h3{
+					    	font-size: 16px;
+					    }
+    					form{
+    						.firstName{
+    							@include firstName(300px);
+    							#firstName
+    							{
+    								@include firstNameSub(240px !important,240px !important);
+    							}
+    						}
+    						.lastName{
+    							@include lastName(200px);
+    							#lastName{
+    								max-width: 240px;
+    								width: 240px !important;
+    							}
+    						}
+    						.formGroup{
+    							#email{
+	    							max-width: 240px;
+	    							width: 240px !important;
+	    						}
+	    						#password{
+	    							max-width: 240px;
+	    							width: 240px !important;
+	    						}
+	    						.column-md-4{
+	    							float: none;
+	    							width:240px;
+	    							a{
+	    								font-weight: 15px;
+	    							}
+	    						}
+    						} 
+    						#pages_msg{
+    							max-width: 200px;
+    						}
+    						.rulesForm{
+    							width: 260px !important;
+    						}
+    					}
+					}
+				}
+			}
+		}
+	}
+	#footer
+	{
+		max-width: 280px !important;
+		width: 280px;
+		#topUlFooter{
+			margin-left: 0px;
+		}
+		.wrapMainUl{
+	 		.ulWrapperQuery{
+	 			.ulWrapperThree{
+	 				@include ulWrapperThree(245px);
+				    #advertiser{
+				    	margin-top: 0px;
+				    }
+	 			}
+	 			#facebookLite{
+	 				@include facebookLite(33px,65px);
+	 			}
+	 			.ulWrapperTwo{
+	 				@include ulWrapperTwoSub;
+   					
+	 			}
+	 		}
+	 		.ulWrapperQuerySecond{
+	 			.ulWrapperTwoFirst{
+					@include ulWrapperTwoFirst;
+				}
+	 			.ulWrappeFour{
+	 				@include ulWrappeFour(309px);
+
+   					.ulWrapperTwo{
+		 				@include ulWrapperTwo;
+		 			}
+		 			.ulWrapperFinal{
+		 				margin-top: -20px;
+		 			}
+	 			}
+
+	 		}
+	 	} 
+	}
+
+}
+@media only screen and (min-width: 301px) and (max-width: 359px){
+	.rightContent h1 {
+	    // color: green !important;
+	}
+	#wrapper
+	{
+		.header{
+			height: auto;
+			.innerHeader{
+				max-width: 300px !important;
+				.leftHeader {
+				   	@include leftHeader;
+				}
+				.rightHeader {
+				    @include rightHeader(280px !important);
+				    .fieldTop{
+				    	float: none !important;
+				    	label{
+				    		margin-bottom: 10px;
+				    		font-size:18px !important;
+				    	}
+				    	input{
+				    		@include inputHeader(220px !important,220px !important);
+				    	}
+				    }
+				}
+			}
+		}
+		.mainContent{
+			.innerMainContent{
+				.innerContentWidth{
+					max-width: 300px;
+					.leftContent{
+						p#facebook{
+							@include facebook(260px);
+						}
+						@include leftContent(300px);
+					    h1{
+					    	font-size: 26px;
+					    }
+					    h3{
+					    	font-size: 16px;
+					    }
+					}
+					.rightContent{
+						@include rightContent(340px,0 auto 0 30px);
+    					h1{
+    						font-size: 26px;
+    					}
+    					h3{
+					    	font-size: 16px;
+					    }
+    					form{
+    						.firstName{
+    							@include firstName(300px);
+    							#firstName
+    							{
+    								@include firstNameSub(200px !important,200px !important);
+    							}
+    						}
+    						.lastName{
+    							@include lastName(200px);
+    							#lastName{
+    								max-width: 200px;
+    								width: 200px !important;
+    							}
+    						}
+    						.formGroup{
+    							#email{
+	    							max-width: 200px;
+	    							width: 200px !important;
+	    						}
+	    						#password{
+	    							max-width: 200px;
+	    							width: 200px !important;
+	    						}
+	    						.column-md-4{
+	    							float: none;
+	    							width:200px;
+	    							a{
+	    								font-weight: 15px;
+	    							}
+	    						}
+    						} 
+    						#pages_msg{
+    							max-width: 200px !important;
+    						}
+    						.rulesForm{
+    							width: 220px !important;
+    						}
+    					}
+					}
+				}
+			}
+		}
+	}
+	#footer
+	{
+		max-width: 280px !important;
+		width: 280px;
+		#topUlFooter{
+			margin-left: 0px;
+		}
+		.wrapMainUl{
+	 		.ulWrapperQuery{
+	 			.ulWrapperThree{
+	 				@include ulWrapperThree(245px);
+				    #advertiser{
+				    	margin-top: 0px;
+				    }
+	 			}
+	 			#facebookLite{
+	 				@include facebookLite(33px,65px);
+	 			}
+	 			.ulWrapperTwo{
+	 				@include ulWrapperTwoSub;
+   					
+	 			}
+	 		}
+	 		.ulWrapperQuerySecond{
+	 			.ulWrapperTwoFirst{
+					@include ulWrapperTwoFirst;
+				}
+	 			.ulWrappeFour{
+	 				@include ulWrappeFour(309px);
+
+   					.ulWrapperTwo{
+		 				@include ulWrapperTwo;
+		 			}
+		 			.ulWrapperFinal{
+		 				margin-top: -20px;
+		 			}
+	 			}
+
+	 		}
+	 	} 
+	}
+}
+@media only screen and (min-width: 240px) and (max-width: 300px){
+	#wrapper
+	{
+		.header{
+			height: auto;
+			.innerHeader{
+				max-width: 300px !important;
+				.leftHeader {
+				    @include leftHeader;
+				}
+				.rightHeader {
+				    @include rightHeader(280px !important);
+				    .fieldTop{
+				    	float: none !important;
+				    	label{
+				    		margin-bottom: 10px;
+				    		font-size:18px !important;
+				    	}
+				    	input{
+				    		@include inputHeader(220px !important,220px !important);
+				    	}
+				    }
+				}
+			}
+		}
+		.mainContent{
+			.innerMainContent{
+				.innerContentWidth{
+					max-width: 300px;
+					.leftContent{
+						p#facebook{
+							@include facebook(240px);
+						}
+						@include leftContent(300px);
+					    h1{
+					    	font-size: 26px;
+					    }
+					    h3{
+					    	font-size: 16px;
+					    }
+					}
+					.rightContent{
+						@include rightContent(340px,0 auto 0 30px);
+    					h1{
+    						font-size: 26px;
+    					}
+    					h3{
+					    	font-size: 16px;
+					    }
+    					form{
+    						.firstName{
+    							@include firstName(300px);
+    							#firstName
+    							{
+    								@include firstNameSub(200px !important,200px !important);
+    							}
+    						}
+    						.lastName{
+    							@include lastName(200px);
+    							#lastName{
+    								max-width: 200px;
+    								width: 200px !important;
+    							}
+    						}
+    						.formGroup{
+    							#email{
+	    							max-width: 200px;
+	    							width: 200px !important;
+	    						}
+	    						#password{
+	    							max-width: 200px;
+	    							width: 200px !important;
+	    						}
+	    						.column-md-4{
+	    							float: none;
+	    							width:200px;
+	    							a{
+	    								font-weight: 15px;
+	    							}
+	    						}
+    						} 
+    						#pages_msg{
+    							max-width: 200px !important;
+    						}
+    						.rulesForm{
+    							width: 220px !important;
+    						}
+    					}
+					}
+				}
+			}
+		}
+	}
+	#footer
+	{
+		max-width: 280px !important;
+		width: 280px;
+		#topUlFooter{
+			margin-left: 0px;
+		}
+		.wrapMainUl{
+	 		.ulWrapperQuery{
+	 			.ulWrapperThree{
+	 				@include ulWrapperThree(245px);
+				    #advertiser{
+				    	margin-top: 0px;
+				    }
+	 			}
+	 			#facebookLite{
+	 				@include facebookLite(33px,65px);
+	 			}
+	 			.ulWrapperTwo{
+	 				@include ulWrapperTwoSub;
+   					
+	 			}
+	 		}
+	 		.ulWrapperQuerySecond{
+	 			.ulWrapperTwoFirst{
+					@include ulWrapperTwoFirst;
+				}
+	 			.ulWrappeFour{
+	 				@include ulWrappeFour(309px);
+
+   					.ulWrapperTwo{
+		 				@include ulWrapperTwo;
+		 			}
+		 			.ulWrapperFinal{
+		 				margin-top: -20px;
+		 			}
+	 			}
+
+	 		}
+	 	} 
+	}
+}

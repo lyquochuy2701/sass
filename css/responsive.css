@@ -1,0 +1,873 @@
+@media only screen and (min-width: 993px) and (max-width: 1024px) {
+  #wrapper .header .innerHeader {
+    max-width: 780px; }
+  #wrapper .mainContent .innerMainContent .innerContentWidth {
+    max-width: 780px !important; }
+    #wrapper .mainContent .innerMainContent .innerContentWidth .leftContent {
+      float: none;
+      margin: 0 auto;
+      text-align: center;
+      width: 400px; }
+    #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent {
+      max-width: 400px;
+      margin: 0 auto 0 200px;
+      float: none; }
+
+  #footer {
+    max-width: 780px; }
+    #footer .wrapMainExtend .ulWrapperQuery {
+      margin: 0 auto;
+      overflow: hidden;
+      width: 505px; }
+    #footer .wrapMainExtend .ulWrapperQuerySecond {
+      margin: 0 auto;
+      overflow: hidden;
+      width: 505px; } }
+@media only screen and (min-width: 970px) and (max-width: 992px) {
+  #wrapper .header .innerHeader {
+    max-width: 780px; }
+  #wrapper .mainContent .innerMainContent .innerContentWidth {
+    max-width: 780px; }
+    #wrapper .mainContent .innerMainContent .innerContentWidth .leftContent {
+      float: none;
+      margin: 0 auto;
+      text-align: center;
+      width: 400px; }
+    #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent {
+      max-width: 400px;
+      margin: 0 auto 0 200px;
+      float: none; }
+
+  #footer {
+    max-width: 780px; }
+    #footer .wrapMainExtend .ulWrapperQuery {
+      margin: 0 auto;
+      overflow: hidden;
+      width: 505px; }
+    #footer .wrapMainExtend .ulWrapperQuerySecond {
+      margin: 0 auto;
+      overflow: hidden;
+      width: 505px; } }
+@media only screen and (min-width: 900px) and (max-width: 969px) {
+  #wrapper .header .innerHeader {
+    max-width: 780px; }
+  #wrapper .mainContent .innerMainContent .innerContentWidth {
+    max-width: 780px; }
+    #wrapper .mainContent .innerMainContent .innerContentWidth .leftContent {
+      float: none;
+      margin: 0 auto;
+      text-align: center;
+      width: 400px; }
+    #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent {
+      max-width: 400px;
+      margin: 0 auto 0 200px;
+      float: none; }
+
+  #footer {
+    max-width: 780px; }
+    #footer .wrapMainExtend .ulWrapperQuery {
+      margin: 0 auto;
+      overflow: hidden;
+      width: 505px; }
+    #footer .wrapMainExtend .ulWrapperQuerySecond {
+      margin: 0 auto;
+      overflow: hidden;
+      width: 505px; } }
+@media only screen and (min-width: 850px) and (max-width: 899px) {
+  #wrapper .header .innerHeader {
+    max-width: 700px; }
+  #wrapper .mainContent .innerMainContent .innerContentWidth {
+    max-width: 700px; }
+    #wrapper .mainContent .innerMainContent .innerContentWidth .leftContent {
+      float: none;
+      margin: 0 auto;
+      text-align: center;
+      width: 400px; }
+    #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent {
+      max-width: 400px;
+      margin: 0 auto 0 200px;
+      float: none; }
+
+  #footer {
+    max-width: 700px; }
+    #footer .wrapMainExtend .ulWrapperQuery {
+      margin: 0 auto;
+      overflow: hidden;
+      width: 505px; }
+    #footer .wrapMainExtend .ulWrapperQuerySecond {
+      margin: 0 auto;
+      overflow: hidden;
+      width: 505px; } }
+@media only screen and (min-width: 800px) and (max-width: 849px) {
+  #wrapper .header .innerHeader {
+    max-width: 650px; }
+  #wrapper .mainContent .innerMainContent .innerContentWidth {
+    max-width: 740px; }
+    #wrapper .mainContent .innerMainContent .innerContentWidth .leftContent {
+      float: none;
+      margin: 0 auto;
+      text-align: center;
+      width: 400px; }
+    #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent {
+      max-width: 400px;
+      margin: 0 auto 0 200px;
+      float: none; }
+
+  #footer {
+    max-width: 700px; }
+    #footer .wrapMainExtend .ulWrapperQuery {
+      margin: 0 auto;
+      overflow: hidden;
+      width: 505px; }
+    #footer .wrapMainExtend .ulWrapperQuerySecond {
+      margin: 0 auto;
+      overflow: hidden;
+      width: 505px; } }
+@media only screen and (min-width: 767px) and (max-width: 799px) {
+  #wrapper .header .innerHeader {
+    max-width: 650px; }
+  #wrapper .mainContent .innerMainContent .innerContentWidth {
+    max-width: 740px; }
+    #wrapper .mainContent .innerMainContent .innerContentWidth .leftContent {
+      float: none;
+      margin: 0 auto;
+      text-align: center;
+      width: 400px; }
+    #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent {
+      max-width: 400px;
+      margin: 0 auto 0 200px;
+      float: none; }
+
+  #footer {
+    max-width: 640px; }
+    #footer .wrapMainExtend .ulWrapperQuery {
+      margin: 0 auto;
+      overflow: hidden;
+      width: 505px; }
+    #footer .wrapMainExtend .ulWrapperQuerySecond {
+      margin: 0 auto;
+      overflow: hidden;
+      width: 505px; } }
+@media only screen and (min-width: 717px) and (max-width: 766px) {
+  #wrapper .header .innerHeader {
+    max-width: 600px; }
+  #wrapper .mainContent .innerMainContent .innerContentWidth {
+    max-width: 740px; }
+    #wrapper .mainContent .innerMainContent .innerContentWidth .leftContent {
+      float: none;
+      margin: 0 auto;
+      text-align: center;
+      width: 400px; }
+    #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent {
+      max-width: 400px;
+      margin: 0 auto 0 180px;
+      float: none; }
+
+  #footer {
+    max-width: 600px; }
+    #footer #topUlFooter {
+      margin-left: 0px; }
+    #footer .wrapMainExtend .ulWrapperQuery {
+      margin: 0 auto;
+      overflow: hidden;
+      width: 505px; }
+    #footer .wrapMainExtend .ulWrapperQuerySecond {
+      margin: 0 auto;
+      overflow: hidden;
+      width: 505px; } }
+@media only screen and (min-width: 667px) and (max-width: 716px) {
+  #wrapper .header .innerHeader {
+    max-width: 580px; }
+  #wrapper .mainContent .innerMainContent .innerContentWidth {
+    max-width: 740px; }
+    #wrapper .mainContent .innerMainContent .innerContentWidth .leftContent {
+      float: none;
+      margin: 0 auto;
+      text-align: center;
+      width: 400px; }
+    #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent {
+      max-width: 400px;
+      margin: 0 auto 0 160px;
+      float: none; }
+
+  #footer {
+    max-width: 580px; }
+    #footer #topUlFooter {
+      margin-left: 0px; }
+    #footer .wrapMainExtend .ulWrapperQuery {
+      margin: 0 auto;
+      overflow: hidden;
+      width: 505px; }
+    #footer .wrapMainExtend .ulWrapperQuerySecond {
+      margin: 0 auto;
+      overflow: hidden;
+      width: 505px; } }
+@media only screen and (min-width: 602px) and (max-width: 666px) {
+  #wrapper .header {
+    height: auto; }
+    #wrapper .header .innerHeader {
+      max-width: 580px; }
+      #wrapper .header .innerHeader .leftHeader {
+        float: none;
+        margin: 0 auto;
+        padding-bottom: 20px;
+        width: 200px; }
+      #wrapper .header .innerHeader .rightHeader {
+        float: none;
+        margin: 0 auto;
+        padding-bottom: 20px;
+        text-align: center;
+        width: 400px; }
+  #wrapper .mainContent .innerMainContent .innerContentWidth {
+    max-width: 740px; }
+    #wrapper .mainContent .innerMainContent .innerContentWidth .leftContent {
+      float: none;
+      margin: 0 auto;
+      text-align: center;
+      width: 400px; }
+    #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent {
+      max-width: 400px;
+      margin: 0 auto 0 130px;
+      float: none; }
+
+  #footer {
+    max-width: 500px; }
+    #footer #topUlFooter {
+      margin-left: 0px; }
+    #footer .wrapMainExtend .ulWrapperQuery {
+      margin: 0 auto;
+      overflow: hidden;
+      width: 505px; }
+    #footer .wrapMainExtend .ulWrapperQuerySecond {
+      margin: 0 auto;
+      overflow: hidden;
+      width: 505px; } }
+@media only screen and (min-width: 561px) and (max-width: 601px) {
+  #wrapper .header {
+    height: auto; }
+    #wrapper .header .innerHeader {
+      max-width: 580px; }
+      #wrapper .header .innerHeader .leftHeader {
+        float: none;
+        margin: 0 auto;
+        padding-bottom: 20px;
+        width: 200px; }
+      #wrapper .header .innerHeader .rightHeader {
+        float: none;
+        margin: 0 auto;
+        padding-bottom: 20px;
+        text-align: center;
+        width: 400px; }
+  #wrapper .mainContent .innerMainContent .innerContentWidth {
+    max-width: 740px; }
+    #wrapper .mainContent .innerMainContent .innerContentWidth .leftContent {
+      float: none;
+      margin: 0 auto;
+      text-align: center;
+      width: 400px; }
+    #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent {
+      max-width: 400px;
+      margin: 0 auto 0 90px;
+      float: none; }
+
+  #footer {
+    max-width: 500px; }
+    #footer #topUlFooter {
+      margin-left: 0px; }
+    #footer .wrapMainUl .ulWrapperQuery {
+      margin: 0 auto -20px;
+      overflow: hidden;
+      text-align: center;
+      width: 325px; }
+      #footer .wrapMainUl .ulWrapperQuery #facebookLite {
+        margin-left: 90px;
+        width: 65px; }
+    #footer .wrapMainUl .ulWrapperQuerySecond .ulWrappeFour {
+      width: 359px;
+      overflow: hidden;
+      margin: 0 auto;
+      position: relative;
+      top: -15px; } }
+@media only screen and (min-width: 521px) and (max-width: 560px) {
+  #wrapper .header {
+    height: auto; }
+    #wrapper .header .innerHeader {
+      max-width: 580px; }
+      #wrapper .header .innerHeader .leftHeader {
+        float: none;
+        margin: 0 auto;
+        padding-bottom: 20px;
+        width: 200px; }
+      #wrapper .header .innerHeader .rightHeader {
+        float: none;
+        margin: 0 auto;
+        padding-bottom: 20px;
+        text-align: center;
+        width: 400px; }
+  #wrapper .mainContent .innerMainContent .innerContentWidth {
+    max-width: 740px; }
+    #wrapper .mainContent .innerMainContent .innerContentWidth .leftContent {
+      float: none;
+      margin: 0 auto;
+      text-align: center;
+      width: 400px; }
+    #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent {
+      max-width: 400px;
+      margin: 0 auto 0 70px;
+      float: none; }
+
+  #footer {
+    max-width: 500px; }
+    #footer #topUlFooter {
+      margin-left: 0px; }
+    #footer .wrapMainUl .ulWrapperQuery .ulWrapperThree {
+      margin: 0 auto -20px;
+      overflow: hidden;
+      text-align: center;
+      width: 325px; }
+    #footer .wrapMainUl .ulWrapperQuery #facebookLite {
+      margin-left: 90px;
+      width: 65px; }
+    #footer .wrapMainUl .ulWrapperQuerySecond .ulWrappeFour {
+      width: 359px;
+      overflow: hidden;
+      margin: 0 auto;
+      position: relative;
+      top: -15px; } }
+@media only screen and (min-width: 480px) and (max-width: 520px) {
+  #wrapper .header {
+    height: auto; }
+    #wrapper .header .innerHeader {
+      max-width: 580px; }
+      #wrapper .header .innerHeader .leftHeader {
+        float: none;
+        margin: 0 auto;
+        padding-bottom: 20px;
+        width: 200px; }
+      #wrapper .header .innerHeader .rightHeader {
+        float: none;
+        margin: 0 auto;
+        padding-bottom: 20px;
+        text-align: center;
+        width: 400px; }
+  #wrapper .mainContent .innerMainContent .innerContentWidth {
+    max-width: 740px; }
+    #wrapper .mainContent .innerMainContent .innerContentWidth .leftContent {
+      float: none;
+      margin: 0 auto;
+      text-align: center;
+      width: 400px; }
+    #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent {
+      max-width: 400px;
+      margin: 0 auto 0 40px;
+      float: none; }
+
+  #footer {
+    max-width: 400px; }
+    #footer #topUlFooter {
+      margin-left: 0px; }
+    #footer .wrapMainUl .ulWrapperQuery .ulWrapperThree {
+      margin: 0 auto -20px;
+      overflow: hidden;
+      text-align: center;
+      width: 325px; }
+    #footer .wrapMainUl .ulWrapperQuery #facebookLite {
+      margin-left: 40px;
+      width: 65px; }
+    #footer .wrapMainUl .ulWrapperQuerySecond .ulWrappeFour {
+      width: 359px;
+      overflow: hidden;
+      margin: 0 auto;
+      position: relative;
+      top: -15px; } }
+@media only screen and (min-width: 441px) and (max-width: 479px) {
+  #wrapper .header {
+    height: auto; }
+    #wrapper .header .innerHeader {
+      max-width: 580px; }
+      #wrapper .header .innerHeader .leftHeader {
+        float: none;
+        margin: 0 auto;
+        padding-bottom: 20px;
+        width: 200px; }
+      #wrapper .header .innerHeader .rightHeader {
+        float: none;
+        margin: 0 auto;
+        padding-bottom: 20px;
+        text-align: center;
+        width: 400px; }
+  #wrapper .mainContent .innerMainContent .innerContentWidth {
+    max-width: 740px; }
+    #wrapper .mainContent .innerMainContent .innerContentWidth .leftContent {
+      float: none;
+      margin: 0 auto;
+      text-align: center;
+      width: 400px; }
+      #wrapper .mainContent .innerMainContent .innerContentWidth .leftContent p#facebook {
+        width: 320px;
+        margin: 0 auto; }
+    #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent {
+      max-width: 400px;
+      margin: 0 auto 0 20px;
+      float: none; }
+      #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .firstName {
+        float: none;
+        max-width: 350px; }
+        #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .firstName #firstName {
+          max-width: 350px !important;
+          width: 350px !important; }
+      #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .lastName {
+        max-width: 350px;
+        float: none;
+        margin-bottom: 10px; }
+        #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .lastName #lastName {
+          max-width: 350px;
+          width: 350px !important; }
+      #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .formGroup #email {
+        max-width: 350px;
+        width: 350px !important; }
+      #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .formGroup #password {
+        max-width: 350px;
+        width: 350px !important; }
+
+  #footer {
+    max-width: 400px; }
+    #footer #topUlFooter {
+      margin-left: 0px; }
+    #footer .wrapMainUl .ulWrapperQuery .ulWrapperThree {
+      margin: 0 auto -20px;
+      overflow: hidden;
+      text-align: center;
+      width: 325px; }
+    #footer .wrapMainUl .ulWrapperQuery #facebookLite {
+      margin-left: 40px;
+      width: 65px; }
+    #footer .wrapMainUl .ulWrapperQuerySecond .ulWrappeFour {
+      width: 359px;
+      overflow: hidden;
+      margin: 0 auto;
+      position: relative;
+      top: -15px; } }
+@media only screen and (min-width: 401px) and (max-width: 440px) {
+  #wrapper .header {
+    height: auto; }
+    #wrapper .header .innerHeader {
+      max-width: 400px !important; }
+      #wrapper .header .innerHeader .leftHeader {
+        float: none;
+        margin: 0 auto;
+        padding-bottom: 20px;
+        width: 200px; }
+      #wrapper .header .innerHeader .rightHeader {
+        float: none;
+        margin: 0 auto;
+        padding-bottom: 20px;
+        text-align: center;
+        width: 300px !important; }
+        #wrapper .header .innerHeader .rightHeader .fieldTop {
+          float: none !important; }
+          #wrapper .header .innerHeader .rightHeader .fieldTop label {
+            margin-bottom: 10px;
+            font-size: 18px !important; }
+          #wrapper .header .innerHeader .rightHeader .fieldTop input {
+            max-width: 230px !important;
+            width: 230px !important;
+            height: 20px !important; }
+  #wrapper .mainContent .innerMainContent .innerContentWidth {
+    max-width: 740px; }
+    #wrapper .mainContent .innerMainContent .innerContentWidth .leftContent {
+      float: none;
+      margin: 0 auto;
+      text-align: center;
+      width: 400px; }
+      #wrapper .mainContent .innerMainContent .innerContentWidth .leftContent p#facebook {
+        width: 300px;
+        margin: 0 auto; }
+    #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent {
+      max-width: 400px;
+      margin: 0 auto 0 30px;
+      float: none; }
+      #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .firstName {
+        float: none;
+        max-width: 300px; }
+        #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .firstName #firstName {
+          max-width: 300px !important;
+          width: 300px !important; }
+      #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .lastName {
+        max-width: 300px;
+        float: none;
+        margin-bottom: 10px; }
+        #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .lastName #lastName {
+          max-width: 300px;
+          width: 300px !important; }
+      #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .formGroup #email {
+        max-width: 300px;
+        width: 300px !important; }
+      #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .formGroup #password {
+        max-width: 300px;
+        width: 300px !important; }
+      #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .formGroup .column-md-4 {
+        float: none;
+        width: 300px; }
+        #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .formGroup .column-md-4 a {
+          font-weight: 15px; }
+      #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form #pages_msg {
+        max-width: 200px; }
+
+  #footer {
+    max-width: 380px !important;
+    width: 380px; }
+    #footer #topUlFooter {
+      margin-left: 0px; }
+    #footer .wrapMainUl .ulWrapperQuery .ulWrapperThree {
+      margin: 0 auto -20px;
+      overflow: hidden;
+      text-align: center;
+      width: 325px; }
+    #footer .wrapMainUl .ulWrapperQuery #facebookLite {
+      margin-left: 40px;
+      width: 65px; }
+    #footer .wrapMainUl .ulWrapperQuerySecond .ulWrappeFour {
+      width: 359px;
+      overflow: hidden;
+      margin: 0 auto;
+      position: relative;
+      top: -15px; } }
+@media only screen and (min-width: 360px) and (max-width: 400px) {
+  #wrapper .header {
+    height: auto; }
+    #wrapper .header .innerHeader {
+      max-width: 350px !important; }
+      #wrapper .header .innerHeader .leftHeader {
+        float: none;
+        margin: 0 auto;
+        padding-bottom: 20px;
+        width: 200px; }
+      #wrapper .header .innerHeader .rightHeader {
+        float: none;
+        margin: 0 auto;
+        padding-bottom: 20px;
+        text-align: center;
+        width: 300px !important; }
+        #wrapper .header .innerHeader .rightHeader .fieldTop {
+          float: none !important; }
+          #wrapper .header .innerHeader .rightHeader .fieldTop label {
+            margin-bottom: 10px;
+            font-size: 18px !important; }
+          #wrapper .header .innerHeader .rightHeader .fieldTop input {
+            max-width: 230px !important;
+            width: 230px !important;
+            height: 20px !important; }
+  #wrapper .mainContent .innerMainContent .innerContentWidth {
+    max-width: 440px; }
+    #wrapper .mainContent .innerMainContent .innerContentWidth .leftContent {
+      float: none;
+      margin: 0 auto;
+      text-align: center;
+      width: 340px; }
+      #wrapper .mainContent .innerMainContent .innerContentWidth .leftContent p#facebook {
+        width: 280px;
+        margin: 0 auto; }
+      #wrapper .mainContent .innerMainContent .innerContentWidth .leftContent h1 {
+        font-size: 26px; }
+      #wrapper .mainContent .innerMainContent .innerContentWidth .leftContent h3 {
+        font-size: 16px; }
+    #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent {
+      max-width: 400px;
+      margin: 0 auto 0 30px;
+      float: none; }
+      #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent h1 {
+        font-size: 26px; }
+      #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent h3 {
+        font-size: 16px; }
+      #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .firstName {
+        float: none;
+        max-width: 300px; }
+        #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .firstName #firstName {
+          max-width: 240px !important;
+          width: 240px !important; }
+      #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .lastName {
+        max-width: 200px;
+        float: none;
+        margin-bottom: 10px; }
+        #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .lastName #lastName {
+          max-width: 240px;
+          width: 240px !important; }
+      #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .formGroup #email {
+        max-width: 240px;
+        width: 240px !important; }
+      #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .formGroup #password {
+        max-width: 240px;
+        width: 240px !important; }
+      #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .formGroup .column-md-4 {
+        float: none;
+        width: 240px; }
+        #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .formGroup .column-md-4 a {
+          font-weight: 15px; }
+      #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form #pages_msg {
+        max-width: 200px; }
+      #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .rulesForm {
+        width: 260px !important; }
+
+  #footer {
+    max-width: 280px !important;
+    width: 280px; }
+    #footer #topUlFooter {
+      margin-left: 0px; }
+    #footer .wrapMainUl .ulWrapperQuery .ulWrapperThree {
+      margin: 0 auto -20px;
+      overflow: hidden;
+      text-align: center;
+      width: 245px; }
+      #footer .wrapMainUl .ulWrapperQuery .ulWrapperThree #advertiser {
+        margin-top: 0px; }
+    #footer .wrapMainUl .ulWrapperQuery #facebookLite {
+      margin-left: 33px;
+      width: 65px; }
+    #footer .wrapMainUl .ulWrapperQuery .ulWrapperTwo {
+      overflow: hidden;
+      width: 309px;
+      margin: 0 auto; }
+    #footer .wrapMainUl .ulWrapperQuerySecond .ulWrapperTwoFirst {
+      margin-left: 40px;
+      margin-top: -20px; }
+    #footer .wrapMainUl .ulWrapperQuerySecond .ulWrappeFour {
+      width: 309px;
+      overflow: hidden;
+      margin: 0 auto;
+      position: relative;
+      top: -15px; }
+      #footer .wrapMainUl .ulWrapperQuerySecond .ulWrappeFour .ulWrapperTwo {
+        overflow: hidden;
+        width: 309px;
+        margin: 0 auto;
+        float: none;
+        margin-left: 33px; }
+      #footer .wrapMainUl .ulWrapperQuerySecond .ulWrappeFour .ulWrapperFinal {
+        margin-top: -20px; } }
+@media only screen and (min-width: 301px) and (max-width: 359px) {
+  #wrapper .header {
+    height: auto; }
+    #wrapper .header .innerHeader {
+      max-width: 300px !important; }
+      #wrapper .header .innerHeader .leftHeader {
+        float: none;
+        margin: 0 auto;
+        padding-bottom: 20px;
+        width: 200px; }
+      #wrapper .header .innerHeader .rightHeader {
+        float: none;
+        margin: 0 auto;
+        padding-bottom: 20px;
+        text-align: center;
+        width: 280px !important; }
+        #wrapper .header .innerHeader .rightHeader .fieldTop {
+          float: none !important; }
+          #wrapper .header .innerHeader .rightHeader .fieldTop label {
+            margin-bottom: 10px;
+            font-size: 18px !important; }
+          #wrapper .header .innerHeader .rightHeader .fieldTop input {
+            max-width: 220px !important;
+            width: 220px !important;
+            height: 20px !important; }
+  #wrapper .mainContent .innerMainContent .innerContentWidth {
+    max-width: 300px; }
+    #wrapper .mainContent .innerMainContent .innerContentWidth .leftContent {
+      float: none;
+      margin: 0 auto;
+      text-align: center;
+      width: 300px; }
+      #wrapper .mainContent .innerMainContent .innerContentWidth .leftContent p#facebook {
+        width: 260px;
+        margin: 0 auto; }
+      #wrapper .mainContent .innerMainContent .innerContentWidth .leftContent h1 {
+        font-size: 26px; }
+      #wrapper .mainContent .innerMainContent .innerContentWidth .leftContent h3 {
+        font-size: 16px; }
+    #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent {
+      max-width: 340px;
+      margin: 0 auto 0 30px;
+      float: none; }
+      #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent h1 {
+        font-size: 26px; }
+      #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent h3 {
+        font-size: 16px; }
+      #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .firstName {
+        float: none;
+        max-width: 300px; }
+        #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .firstName #firstName {
+          max-width: 200px !important;
+          width: 200px !important; }
+      #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .lastName {
+        max-width: 200px;
+        float: none;
+        margin-bottom: 10px; }
+        #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .lastName #lastName {
+          max-width: 200px;
+          width: 200px !important; }
+      #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .formGroup #email {
+        max-width: 200px;
+        width: 200px !important; }
+      #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .formGroup #password {
+        max-width: 200px;
+        width: 200px !important; }
+      #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .formGroup .column-md-4 {
+        float: none;
+        width: 200px; }
+        #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .formGroup .column-md-4 a {
+          font-weight: 15px; }
+      #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form #pages_msg {
+        max-width: 200px !important; }
+      #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .rulesForm {
+        width: 220px !important; }
+
+  #footer {
+    max-width: 280px !important;
+    width: 280px; }
+    #footer #topUlFooter {
+      margin-left: 0px; }
+    #footer .wrapMainUl .ulWrapperQuery .ulWrapperThree {
+      margin: 0 auto -20px;
+      overflow: hidden;
+      text-align: center;
+      width: 245px; }
+      #footer .wrapMainUl .ulWrapperQuery .ulWrapperThree #advertiser {
+        margin-top: 0px; }
+    #footer .wrapMainUl .ulWrapperQuery #facebookLite {
+      margin-left: 33px;
+      width: 65px; }
+    #footer .wrapMainUl .ulWrapperQuery .ulWrapperTwo {
+      overflow: hidden;
+      width: 309px;
+      margin: 0 auto; }
+    #footer .wrapMainUl .ulWrapperQuerySecond .ulWrapperTwoFirst {
+      margin-left: 40px;
+      margin-top: -20px; }
+    #footer .wrapMainUl .ulWrapperQuerySecond .ulWrappeFour {
+      width: 309px;
+      overflow: hidden;
+      margin: 0 auto;
+      position: relative;
+      top: -15px; }
+      #footer .wrapMainUl .ulWrapperQuerySecond .ulWrappeFour .ulWrapperTwo {
+        overflow: hidden;
+        width: 309px;
+        margin: 0 auto;
+        float: none;
+        margin-left: 33px; }
+      #footer .wrapMainUl .ulWrapperQuerySecond .ulWrappeFour .ulWrapperFinal {
+        margin-top: -20px; } }
+@media only screen and (min-width: 240px) and (max-width: 300px) {
+  #wrapper .header {
+    height: auto; }
+    #wrapper .header .innerHeader {
+      max-width: 300px !important; }
+      #wrapper .header .innerHeader .leftHeader {
+        float: none;
+        margin: 0 auto;
+        padding-bottom: 20px;
+        width: 200px; }
+      #wrapper .header .innerHeader .rightHeader {
+        float: none;
+        margin: 0 auto;
+        padding-bottom: 20px;
+        text-align: center;
+        width: 280px !important; }
+        #wrapper .header .innerHeader .rightHeader .fieldTop {
+          float: none !important; }
+          #wrapper .header .innerHeader .rightHeader .fieldTop label {
+            margin-bottom: 10px;
+            font-size: 18px !important; }
+          #wrapper .header .innerHeader .rightHeader .fieldTop input {
+            max-width: 220px !important;
+            width: 220px !important;
+            height: 20px !important; }
+  #wrapper .mainContent .innerMainContent .innerContentWidth {
+    max-width: 300px; }
+    #wrapper .mainContent .innerMainContent .innerContentWidth .leftContent {
+      float: none;
+      margin: 0 auto;
+      text-align: center;
+      width: 300px; }
+      #wrapper .mainContent .innerMainContent .innerContentWidth .leftContent p#facebook {
+        width: 240px;
+        margin: 0 auto; }
+      #wrapper .mainContent .innerMainContent .innerContentWidth .leftContent h1 {
+        font-size: 26px; }
+      #wrapper .mainContent .innerMainContent .innerContentWidth .leftContent h3 {
+        font-size: 16px; }
+    #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent {
+      max-width: 340px;
+      margin: 0 auto 0 30px;
+      float: none; }
+      #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent h1 {
+        font-size: 26px; }
+      #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent h3 {
+        font-size: 16px; }
+      #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .firstName {
+        float: none;
+        max-width: 300px; }
+        #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .firstName #firstName {
+          max-width: 200px !important;
+          width: 200px !important; }
+      #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .lastName {
+        max-width: 200px;
+        float: none;
+        margin-bottom: 10px; }
+        #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .lastName #lastName {
+          max-width: 200px;
+          width: 200px !important; }
+      #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .formGroup #email {
+        max-width: 200px;
+        width: 200px !important; }
+      #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .formGroup #password {
+        max-width: 200px;
+        width: 200px !important; }
+      #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .formGroup .column-md-4 {
+        float: none;
+        width: 200px; }
+        #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .formGroup .column-md-4 a {
+          font-weight: 15px; }
+      #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form #pages_msg {
+        max-width: 200px !important; }
+      #wrapper .mainContent .innerMainContent .innerContentWidth .rightContent form .rulesForm {
+        width: 220px !important; }
+
+  #footer {
+    max-width: 280px !important;
+    width: 280px; }
+    #footer #topUlFooter {
+      margin-left: 0px; }
+    #footer .wrapMainUl .ulWrapperQuery .ulWrapperThree {
+      margin: 0 auto -20px;
+      overflow: hidden;
+      text-align: center;
+      width: 245px; }
+      #footer .wrapMainUl .ulWrapperQuery .ulWrapperThree #advertiser {
+        margin-top: 0px; }
+    #footer .wrapMainUl .ulWrapperQuery #facebookLite {
+      margin-left: 33px;
+      width: 65px; }
+    #footer .wrapMainUl .ulWrapperQuery .ulWrapperTwo {
+      overflow: hidden;
+      width: 309px;
+      margin: 0 auto; }
+    #footer .wrapMainUl .ulWrapperQuerySecond .ulWrapperTwoFirst {
+      margin-left: 40px;
+      margin-top: -20px; }
+    #footer .wrapMainUl .ulWrapperQuerySecond .ulWrappeFour {
+      width: 309px;
+      overflow: hidden;
+      margin: 0 auto;
+      position: relative;
+      top: -15px; }
+      #footer .wrapMainUl .ulWrapperQuerySecond .ulWrappeFour .ulWrapperTwo {
+        overflow: hidden;
+        width: 309px;
+        margin: 0 auto;
+        float: none;
+        margin-left: 33px; }
+      #footer .wrapMainUl .ulWrapperQuerySecond .ulWrappeFour .ulWrapperFinal {
+        margin-top: -20px; } }
+
+/*# sourceMappingURL=responsive.css.map */
